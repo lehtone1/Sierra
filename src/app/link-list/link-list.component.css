@@ -1,0 +1,16 @@
+
+.links {
+    background-color: #999;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    padding: 0 0 10px 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+}

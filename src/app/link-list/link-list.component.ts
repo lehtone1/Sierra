@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LinkListComponent implements OnInit {
   links: Link[] = [
-    new Link('finnair', 'www.finnair.fi'),
-    new Link('facebook', 'www.facebook.com')
+    new Link('Yhtiöjärjestys 2006', 'www.finnair.fi'),
+    new Link('Yleinen turvallisuusohje', 'www.facebook.com'),
+    new Link('5-vuotis suunnitelma', 'www.facebook.com'),
+    new Link('Kunnossapitoilmoitus', 'www.facebook.com'),
+    new Link('Remontti-ilmoitus', 'www.facebook.com')
   ];
 
   constructor() { }

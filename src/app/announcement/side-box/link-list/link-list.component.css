@@ -1,6 +1,11 @@
 
 .links {
     background-color: #999;
+    width: 100%;
+}
+
+.links h3 {
+    text-align: center;
 }
 
 .links ul {

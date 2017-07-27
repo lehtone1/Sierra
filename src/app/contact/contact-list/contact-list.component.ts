@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactListComponent implements OnInit {
   contacts: Contact[] = [
-  new Contact('Heikki', 'heikki@lehtonen.fi', '+358 50 1311'),
-  new Contact('Anna', 'anna.lehtonen@otava.fi', '+358 50 62172')
+  new Contact('Hallituksen puheenjohtaja', 'Heikki', 'heikki@lehtonen.fi', '+358 50 1311'),
+  new Contact('Hallituksen jäsen', 'Anna', 'anna.lehtonen@otava.fi', '+358 50 62172')
   ];
 
   constructor() {}

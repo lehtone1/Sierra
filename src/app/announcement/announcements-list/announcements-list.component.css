@@ -1,0 +1,10 @@
+.announcement-list {
+    background-color: #EEE;
+    width: 80%;
+    height: 48vw;
+    float: right;
+}
+
+.announcement-list h2 {
+    text-align: center;
+}

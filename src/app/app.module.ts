@@ -1,30 +1,41 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
-import { AnnouncementsListComponent } from './announcements-list/announcements-list.component';
-import { ContactListComponent } from './contact-list/contact-list.component';
-import { LinkListComponent } from './link-list/link-list.component';
 import { HeaderComponent } from './header/header.component';
-import { BuyBookComponent } from './buy-book/buy-book.component';
-import { SaunaScheduleComponent } from './sauna-schedule/sauna-schedule.component';
-import { SaunaReservationComponent } from './sauna-reservation/sauna-reservation.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { AppRoutingModule, routingComponents } from './app.routing';
+import { ContactListComponent } from './contact/contact-list/contact-list.component';
+import { SaunaReservationComponent } from './sauna/sauna-reservation/sauna-reservation.component';
+import { SaunaScheduleComponent } from './sauna/sauna-schedule/sauna-schedule.component';
+import { GarageComponent } from './announcement/side-box/garage/garage.component';
+import { LinkListComponent } from './announcement/side-box/link-list/link-list.component';
+import { SideBoxComponent } from './announcement/side-box/side-box.component';
+import { BuyBookComponent } from './announcement/side-box/buy-book/buy-book.component';
+import { AnnouncementsListComponent } from './announcement/announcements-list/announcements-list.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    AnnouncementsListComponent,
-    ContactListComponent,
-    LinkListComponent,
+    routingComponents,
     HeaderComponent,
+    AnnouncementsListComponent,
     BuyBookComponent,
+    SideBoxComponent,
+    LinkListComponent,
+    GarageComponent,
     SaunaScheduleComponent,
-    SaunaReservationComponent
+    SaunaReservationComponent,
+    ContactListComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

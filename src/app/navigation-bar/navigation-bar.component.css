@@ -15,3 +15,7 @@
     width: 25%;
     text-align: center;
 }
+
+.nav ul li a {
+    text-decoration: none;
+}

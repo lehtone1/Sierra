@@ -1,5 +1,5 @@
 export class Contact {
 
-    constructor(public title: string, public name: string, public eMail: string, public phoneNumber: string) {}
+    constructor(public title: string, public name: string, public phoneNumber: string, public eMail: string) {}
 
 }

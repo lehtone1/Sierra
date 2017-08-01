@@ -1,11 +1,19 @@
 <div class="contacts">
   <h2>Yhteystiedot</h2>
-  <div *ngFor="let contact of contacts">
-    <table>
-      <td><p> {{ contact.title }} </p></td>
-      <td><p> {{ contact.name }} </p></td>
-      <td><p> {{ contact.eMail }} </p></td>
-      <td><p> {{ contact.phoneNumber }} </p></td>
+  <div>
+    <table style="width: 100%;">
+      <tr>
+        <th>Tehtävä</th>
+        <th>Nimi</th>
+        <th>Puhelinnumero</th>
+        <th>Sähköposti</th>
+      </tr>
+      <tr *ngFor="let contact of contacts">
+        <th> {{ contact.title }} </th>
+        <th> {{ contact.name }} </th>
+        <th> {{ contact.phoneNumber }} </th>
+        <th> {{ contact.eMail }} </th>
+      </tr>
     </table>
   </div>  
 </div>

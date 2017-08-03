@@ -3,16 +3,16 @@
   <div>
     <table style="width: 100%;">
       <tr>
-        <th>Tehtävä</th>
-        <th>Nimi</th>
-        <th>Puhelinnumero</th>
-        <th>Sähköposti</th>
+        <th><h4>Tehtävä</h4></th>
+        <th><h4>Nimi</h4></th>
+        <th><h4>Puhelinnumero</h4></th>
+        <th><h4>Sähköposti</h4></th>
       </tr>
       <tr *ngFor="let contact of contacts">
-        <th> {{ contact.title }} </th>
-        <th> {{ contact.name }} </th>
-        <th> {{ contact.phoneNumber }} </th>
-        <th> {{ contact.eMail }} </th>
+        <th><p> {{ contact.title }} </p></th>
+        <th><p>  {{ contact.name }} </p></th>
+        <th><p>  {{ contact.phoneNumber }} </p></th>
+        <th><p>  {{ contact.eMail }} </p></th>
       </tr>
     </table>
   </div>  

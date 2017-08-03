@@ -1,5 +1,8 @@
 <div class="side-box">
-  <app-link-list></app-link-list>
+  <div *ngFor="let component of components">
+    {{ component }}
+  </div>
+ <!-- <app-link-list></app-link-list>
   <app-garage></app-garage>
-  <app-buy-book></app-buy-book>
+  <app-buy-book></app-buy-book>-->
 </div>

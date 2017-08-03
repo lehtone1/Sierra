@@ -2,7 +2,16 @@
     background-color: #999;
 }
 
-.sauna-reservation h2 {
-    width: 100%;
+button {
+    width:100%;
+}
+
+p {
     text-align: center;
+}
+
+.input-holder {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
 }

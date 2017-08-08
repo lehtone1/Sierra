@@ -1,5 +1,7 @@
 
 .header {
     text-align: center;
-    height: 50vw;
+    height: 70vw;
+    background-image: url(../../assets/images/sierra_color.jpg);
+    background-size: 100%;
 }

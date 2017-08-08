@@ -3,9 +3,19 @@
     width: 80%;
     height: 48vw;
     float: right;
-    padding: 0 5%;
+    background-color: #F9FBE7;
+    
+}
+
+.announcement,
+.announcement2 {
+    padding: 0 5% 80px 5%;
 }
 
 .announcement {
-    margin-bottom: 80px;
+    background-color: #F9FBE7;
+}
+
+.announcement2 {
+    
 }

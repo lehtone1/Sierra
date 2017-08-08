@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBoxComponent implements OnInit {
 
-  components: string[] = ['<app-link-list></app-link-list>', '<app-buy-book></app-buy-book>', '<app-garage></app-garage>'];
+  /*components: string[] = ['<app-link-list></app-link-list>', '<app-buy-book></app-buy-book>', '<app-garage></app-garage>'];*/
 
   constructor() { }
 

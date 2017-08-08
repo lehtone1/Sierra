@@ -3,11 +3,6 @@
     background-color: #999;
 }
 
-.order-book h3 {
-    width: 100%;
-    text-align: center;
-}
-
 .order-book input {
     width: 46%;
 }

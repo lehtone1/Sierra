@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
 html {
-    background-color: #F9FBE7;
     padding-top: 0px;
 }
 
@@ -21,10 +20,10 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 300%;
-    margin-top: 150px;
-    font-weight: 500;
-    color: #F0F4C3;
+    font-size: 330%;
+    margin-top: 180px;
+    font-weight: 100;
+    color: #FFF;
 }
 
 h2 {
@@ -33,16 +32,25 @@ h2 {
 }
 
 h3 {
-    font-size: 120%;
+    font-size: 140%;
     margin-bottom: 30px;
 }
 
-p, h4 {
-    font-size: 110%;
+h4 {
+    font-size: 120%;
     margin-bottom: 20px;
+}
+
+p {
+    font-size: 100%;
+    line-height: 30px;
 }
 
 a {
     color: #000;
     text-decoration: none;
+}
+
+.wrapper {
+    padding: 20px 10% 80px 10%;
 }

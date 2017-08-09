@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { NavigationBarComponent } from './header/navigation-bar/navigation-bar.component';
 import { AppRoutingModule, routingComponents } from './app.routing';
 import { ContactListComponent } from './contact/contact-list/contact-list.component';
 import { SaunaReservationComponent } from './sauna/sauna-reservation/sauna-reservation.component';

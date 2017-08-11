@@ -54,3 +54,7 @@ a {
 .wrapper {
     padding: 20px 10% 80px 10%;
 }
+
+.grey-bg {
+    background-color: #EEE;
+}

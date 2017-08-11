@@ -1,4 +1,3 @@
-
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -9,11 +8,10 @@ import { AppRoutingModule, routingComponents } from './app.routing';
 import { ContactListComponent } from './contact/contact-list/contact-list.component';
 import { SaunaReservationComponent } from './sauna/sauna-reservation/sauna-reservation.component';
 import { SaunaScheduleComponent } from './sauna/sauna-schedule/sauna-schedule.component';
-import { GarageComponent } from './announcement/side-box/garage/garage.component';
-import { LinkListComponent } from './announcement/side-box/link-list/link-list.component';
-import { SideBoxComponent } from './announcement/side-box/side-box.component';
-import { BuyBookComponent } from './announcement/side-box/buy-book/buy-book.component';
 import { AnnouncementsListComponent } from './announcement/announcements-list/announcements-list.component';
+import { LinkListComponent } from './sauna/link-list/link-list.component';
+import { GarageComponent } from './sauna/garage/garage.component';
+import { BuyBookComponent } from './sauna/buy-book/buy-book.component';
 
 
 
@@ -25,9 +23,8 @@ import { AnnouncementsListComponent } from './announcement/announcements-list/an
     HeaderComponent,
     AnnouncementsListComponent,
     BuyBookComponent,
-    SideBoxComponent,
-    LinkListComponent,
     GarageComponent,
+    LinkListComponent,
     SaunaScheduleComponent,
     SaunaReservationComponent,
     ContactListComponent

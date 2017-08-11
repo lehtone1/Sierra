@@ -7,10 +7,10 @@
     text-align: center;
 }
 
-.garage div input {
+.garage div div input {
     width: 46%;
 }
 
-.garage div button {
+.garage div div button {
     width: 100%;
 }

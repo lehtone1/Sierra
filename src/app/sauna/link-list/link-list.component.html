@@ -1,0 +1,15 @@
+<div class="col-sm-12 wrapper">
+  <div class="col-sm-6">
+    <h3>Tärkeitä dokumentteja</h3>
+    <ul>
+      <li *ngFor="let link of links">
+        <a href="{{ link.address }}" >
+          {{ link.name }}
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <p>image</p>
+  </div>
+</div>

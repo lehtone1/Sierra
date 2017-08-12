@@ -1,8 +1,6 @@
-.sauna-reservation {
-    
-}
 
-button {
+button,
+input {
     width:100%;
 }
 
@@ -10,8 +8,3 @@ p {
     text-align: center;
 }
 
-.input-holder {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 20%;
-}

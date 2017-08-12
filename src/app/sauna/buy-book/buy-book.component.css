@@ -1,9 +1,9 @@
 
-.order-book input {
-    width: 46%;
+input {
+    width: 100%;
 }
 
-.order-book button {
+button {
     width: 100%;
 }
 

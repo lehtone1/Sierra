@@ -51,10 +51,18 @@ a {
     text-decoration: none;
 }
 
-.wrapper {
-    padding: 20px 10% 80px 10%;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
+/* .wrapper {
+    padding: 20px 10% 80px 10%;
+} */
+
+.col-sm-12 {
+    padding: 20px 10% 40px 10%;
+}
 .grey-bg {
     background-color: #EEE;
 }

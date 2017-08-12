@@ -1,16 +1,9 @@
-.garage {
-    background-color: #999;
+
+
+input {
     width: 100%;
 }
 
-.garage h3 {
-    text-align: center;
-}
-
-.garage div div input {
-    width: 46%;
-}
-
-.garage div div button {
+button {
     width: 100%;
 }

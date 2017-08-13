@@ -11,9 +11,9 @@
     <li>Telaranta</li>
   </ol>
   <div>
-    <input id="garage-name" type="text" placeholder="nimi">
-    <input id="garage-apartment" type="text" placeholder="asunnon numero">
-    <button class="btn btn-success">Lähetä</button>
+    <input type="text" placeholder="nimi" (input)="updateName($event)">
+    <input type="text" placeholder="asunnon numero" (input)="updateApartment($event)">
+    <button class="btn btn-success" (click)="garageMail();">Lähetä</button>
   </div>
 </div>
 

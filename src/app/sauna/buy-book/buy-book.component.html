@@ -2,9 +2,9 @@
 <div class="col-sm-6">
   <h3>Tilaa Sierra-kirja!</h3>
   <p>Kirjan hinta 20€</p>
-  <input type="text" name="" value="nimi">
-  <input type="text" name="" value="asunnon numero">
-  <button class="btn btn-success">Tilaa</button>
+  <input type="text" name="" placeholder="nimi" (input)="updateName($event)">
+  <input type="text" name="" placeholder="asunnon numero" (input)="updateApartment($event)">
+  <button class="btn btn-success" (click)="buyBookMail();">Tilaa</button>
 </div>
 <div class="col-sm-6">
   <p>image</p>

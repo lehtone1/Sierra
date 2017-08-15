@@ -15,9 +15,12 @@ nav ul {
 
 
 
+
+
 nav ul li a {
     font-size: 140%;
     text-decoration: none;
     color: #FFF;
     font-weight: 100;
+    margin-left: 20px;
 }

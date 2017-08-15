@@ -25,8 +25,9 @@ export class GarageComponent implements OnInit {
 
   public garageMail() {
     const link = 'mailto:eero.lehtonen@aalto.fi'
-            + '?subject=' + encodeURI('Sierra kirjan osto')
-            + '&body=' + encodeURI(`Nimi: ${this.name} \n Asunto: ${this.apartment}`)
+            + '?subject=' + encodeURI('Sierra, autotallipaikan jonotuslista')
+            // tslint:disable-next-line:max-line-length
+            + '&body=' + encodeURI(`Hei, \n\n lisäätkö minut autotallipaikan jonotuslistalle. \n\n Tiedot: \n\n Nimi: ${this.name} \n Asunto: ${this.apartment} \n\n Kiitos!`)
     ;
 
     window.location.href = link;

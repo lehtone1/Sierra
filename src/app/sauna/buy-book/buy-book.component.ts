@@ -26,7 +26,8 @@ export class BuyBookComponent implements OnInit {
   public buyBookMail() {
     const link = 'mailto:eero.lehtonen@aalto.fi'
             + '?subject=' + encodeURI('Sierra kirjan osto')
-            + '&body=' + encodeURI(`Nimi: ${this.name} \n Asunto: ${this.apartment}`)
+            // tslint:disable-next-line:max-line-length
+            + '&body=' + encodeURI(`Hei, \n\n haluaisin ostaa yhden Sierra kirjan \n\n Tiedot: \n\n Nimi: ${this.name} \n Asunto: ${this.apartment} \n\n Kiitos!`)
     ;
 
     window.location.href = link;

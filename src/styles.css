@@ -56,19 +56,15 @@ ul {
     padding: 0;
 }
 
-/* .wrapper {
-    padding: 20px 10% 80px 10%;
-} */
-
-.col-sm-12 {
-    padding: 20px 10% 40px 10%;
-}
-
-.col-sm-12 {
-    padding: 0px 5% 0px 5%;
+.wrapper {
     max-width: 1200px;
-}
+    margin: 5px auto;
+} 
 
+.flex {
+    display: flex;
+    flex-direction: row;
+}
 
 .grey-bg {
     background-color: #EEE;
@@ -77,3 +73,14 @@ ul {
 .hide-small {
     display: none;
 }
+
+.half {
+    height:400px;
+    margin: 0 1%;
+    width:48%;
+}
+
+/*******************************
+******** MEDIA QUERIES**********
+*******************************/
+

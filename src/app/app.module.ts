@@ -7,11 +7,11 @@ import { NavigationBarComponent } from './header/navigation-bar/navigation-bar.c
 import { AppRoutingModule, routingComponents } from './app.routing';
 import { ContactListComponent } from './contact/contact-list/contact-list.component';
 import { SaunaReservationComponent } from './sauna/sauna-reservation/sauna-reservation.component';
-import { SaunaScheduleComponent } from './sauna/sauna-schedule/sauna-schedule.component';
 import { AnnouncementsListComponent } from './announcement/announcements-list/announcements-list.component';
 import { LinkListComponent } from './sauna/link-list/link-list.component';
 import { GarageComponent } from './sauna/garage/garage.component';
 import { BuyBookComponent } from './sauna/buy-book/buy-book.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -25,9 +25,9 @@ import { BuyBookComponent } from './sauna/buy-book/buy-book.component';
     BuyBookComponent,
     GarageComponent,
     LinkListComponent,
-    SaunaScheduleComponent,
     SaunaReservationComponent,
-    ContactListComponent
+    ContactListComponent,
+    FooterComponent
 
   ],
   imports: [

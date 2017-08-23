@@ -1,1 +1,8 @@
-<app-contact-list></app-contact-list>
+<div class="wrapper flex" style="flex-wrap:wrap;align-content:space-between;">
+    <div class="contact-wrapper" *ngFor="let contact of contacts">
+        <p>{{contact.title}}</p>
+        <p>{{contact.name}}</p>
+        <p>{{contact.phoneNumber}}</p>
+        <p>{{contact.eMail}}</p>
+    </div>
+</div>

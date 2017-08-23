@@ -1,3 +1,29 @@
 footer {
     background-color: #555;
+    height: 200px; 
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact {
+    display: flex;
+}
+
+.footer-contact-item {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: #EEE;
+}
+
+.footer-contact-item a {
+    color: #EEE;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-contact {
+        flex-direction: column;
+    }
 }

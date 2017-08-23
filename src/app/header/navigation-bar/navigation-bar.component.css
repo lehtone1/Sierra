@@ -24,3 +24,15 @@ nav ul li a {
     font-weight: 100;
     margin-left: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    nav ul li a {
+        margin-left: 10px;
+        /* font-size: 120%; */
+    }
+
+
+    nav {
+        margin-bottom: 10px;
+    }
+}

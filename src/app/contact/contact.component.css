@@ -5,3 +5,17 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 1020px) {
+
+    .contact-wrapper {
+        width:50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact-wrapper {
+        width:100%;
+    }
+}

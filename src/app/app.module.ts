@@ -11,6 +11,7 @@ import { LinkListComponent } from './other/link-list/link-list.component';
 import { GarageComponent } from './other/garage/garage.component';
 import { BuyBookComponent } from './other/buy-book/buy-book.component';
 import { FooterComponent } from './footer/footer.component';
+import { AnnouncementEmailComponent } from './announcement/announcement-email/announcement-email.component';
 
 
 
@@ -25,7 +26,8 @@ import { FooterComponent } from './footer/footer.component';
     GarageComponent,
     LinkListComponent,
     SaunaReservationComponent,
-    FooterComponent
+    FooterComponent,
+    AnnouncementEmailComponent
 
   ],
   imports: [

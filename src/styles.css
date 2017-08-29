@@ -31,6 +31,16 @@ h2 {
     margin-bottom: 50px;
 }
 
+h2:after {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #FDD835;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 h3 {
     font-size: 140%;
     margin-bottom: 30px;

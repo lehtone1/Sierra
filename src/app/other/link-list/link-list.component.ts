@@ -12,7 +12,7 @@ export class LinkListComponent implements OnInit {
     new Link('Yleinen turvallisuusohje', '../../../assets/pdf/Yleinen-turvallisuusohje.PDF'),
     new Link('5-vuotis suunnitelma', '../../../assets/pdf/Korjaukset-5-vuotis-suunnitelma.pdf'),
     new Link('Kunnossapitoilmoitus', '../../../assets/pdf/Kunnossapitoilmoitus.pdf'),
-    new Link('Remontti-ilmoitus', '../../../assets/pdf/Remontti-ilmoitus.pdf')
+    new Link('Remonttiohjeet', '../../../assets/pdf/Remonttiohjeet.pdf')
   ];
 
   constructor() { }

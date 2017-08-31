@@ -1,7 +1,7 @@
  import { NgModule } from '@angular/core';
  import { Routes, RouterModule } from '@angular/router';
 
- import { SaunaComponent } from './sauna/sauna.component';
+ import { SaunaComponent } from './other/sauna.component';
  import { AnnouncementComponent } from './announcement/announcement.component';
  import { ContactComponent } from './contact/contact.component';
 

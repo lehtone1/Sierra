@@ -1,10 +1,11 @@
 <div class="half">
   <h3>Varaa sauna-aika</h3>
-  <p>Tunnin sauna-aika maksaa 40€/kk. Saunapäivät ovat tiistai ja perjantai</p>
+  <p>Tunnin sauna-aika maksaa 40€/kk. Saunapäivät ovat tiistai ja perjantai.</p>
   <div>
     <input id="sauna-name" type="text" name="" placeholder="nimi" (input)="updateName($event)">
     <input id="sauna-apartment" type="text" name="" placeholder="asunnon numero" (input)="updateApartment($event)">
     <input id="sauna-day" type="text" name="" placeholder="päivä" (input)="updateDay($event)">
+    <input id="sauna-time" type="text" name="" placeholder="toivottu aika" (input)="updateTime($event)">
   </div>
   <button type="" class="btn btn-success" (click)="saunaMail();">Varaa</button>
 </div>

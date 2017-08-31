@@ -10,6 +10,7 @@ export class SaunaReservationComponent implements OnInit {
   name = '';
   apartment = '';
   day = '';
+  time = '';
 
   constructor() { }
 
@@ -28,11 +29,15 @@ export class SaunaReservationComponent implements OnInit {
     this.day = (<HTMLInputElement>event.target).value;
   }
 
+  updateTime(event: Event) {
+    this.time = (<HTMLInputElement>event.target).value;
+  }
+
   public saunaMail() {
     const link = 'mailto:tom@amlin.fi'
             + '?subject=' + encodeURI('Sierra, sauna-ajan varaus')
             // tslint:disable-next-line:max-line-length
-            + '&body=' + encodeURI(`Hei, \n\n haluaisin varata sauna-ajan. \n\n Nimi: ${this.name} \n Asunto: ${this.apartment} \n Päivä: ${this.day} \n\n Kiitos!`)
+            + '&body=' + encodeURI(`Hei, \n\n haluaisin varata sauna-ajan. \n\n Nimi: ${this.name} \n Asunto: ${this.apartment} \n Päivä: ${this.day} \n Aika: ${this.time} \n\n Kiitos!`)
     ;
 
     window.location.href = link;

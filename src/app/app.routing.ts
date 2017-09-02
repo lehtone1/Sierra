@@ -7,11 +7,11 @@
  import { ContactComponent } from './contact/contact.component';
 
  const routes: Routes = [
-   { path: '', pathMatch: 'full', redirectTo: 'announcement' },
+   { path: '', pathMatch: 'prefix', redirectTo: 'announcement' },
    { path: 'announcement', component: AnnouncementComponent },
    { path: 'important-documents', component: ImportantDocumentsComponent },
    { path: 'reservations-and-orders', component: ReservationsAndOrdersComponent},
-   { path: 'contact', component: ContactComponent },
+   { path: 'contact', component: ContactComponent }
  ];
 
 

@@ -9,8 +9,11 @@ nav {
 nav ul {
     list-style: none;
     padding: 0 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 
@@ -24,6 +27,7 @@ nav ul li a {
     font-weight: 100;
     margin-left: 20px;
     padding-bottom: 10px;
+    font-weight: 300;
 }
 
 nav ul li a:hover {
@@ -41,7 +45,10 @@ nav ul li a:hover {
     }
 
     nav ul {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 5%;
         padding-top: 0;
     }

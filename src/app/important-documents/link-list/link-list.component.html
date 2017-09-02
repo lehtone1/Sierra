@@ -1,7 +1,7 @@
 <div class="half">
   <ul>
     <li *ngFor="let link of links" class="link">
-      <a href="{{ link.address }}" download>
+      <a href="{{ link.address }}" target="_blank" download>
         {{ link.name }}
       </a>
     </li>
